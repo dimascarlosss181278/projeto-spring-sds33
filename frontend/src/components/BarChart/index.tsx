@@ -42,7 +42,7 @@ const BarChart = () => {
 
                 setChartData({
                     labels: {
-                        categories: []
+                        categories: myLabels
                     },
                     series: [
                         {
@@ -52,10 +52,6 @@ const BarChart = () => {
                     ]
                 });
 
-
-
-
-                //          console.log(chartData);
             });
     }, []);
 
